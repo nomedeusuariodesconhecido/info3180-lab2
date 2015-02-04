@@ -4,7 +4,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     background-color: #CCCCCC;
-    width: 600px;
+    width: 700px;
 }
 
 
@@ -17,51 +17,51 @@ body{
 
 #profileName{
     display: inline;
-    margin: 5px;
-    float: right;
-    clear: all;
+    margin: 5px 0px 0px 25px;
+    float: left;
     background-color: #20B2AA;
     border: 4px solid white;
     border-radius: 5px;
-    padding: 15px;
+    padding: 5px 0px 5px 40px;
     font-size: 36px;
-    width: 50%;
+    width: 55%;
     font-family: "Impact";
     
 }
 
 #profileContent{
     display: block;
-    margin: 5px;
-    float: right;
+    margin: 5px 0px 0px 25px;
+    float: left;
     height: 400px;
     background-color: #20B2AA;
     border: 4px solid white;
     border-radius: 5px;
-    padding: 15px 15px 0px 0px;
-    font-size: 18px;
-    width: 50%;
+    padding: 15px 20px 0px 0px;
+    font-size: 16px;
+    width: 45%;
     font-family: "Century Gothic";
+    line-height: 2;
 }
 
 
 #time{
-    width: 50%;
-    float: right;
-    padding: 5px;
+    width: 45%;
+    float: left;
+    padding: 10px 0px 10px 40px;
     display: block;
-    margin: 5px;
-    font-size: 18px;
+    margin: 5px 0px 0px 25px;
+    font-size: 16px;
     border-radius: 5px;
-    text-align: center;
+    text-align: left;
     border: 4px solid white;
     background-color: #20B2AA;
     font-family: "Century Gothic";
 }
 
 #spacer{
-    height: 50px;
-    width: 50%;
+    height: 40px;
+    width: 55%;
     float: right;
     display: inline;
     background-color: transparent;

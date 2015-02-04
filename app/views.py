@@ -10,6 +10,7 @@ from app import app
 from flask import render_template, request, redirect, url_for
 
 
+
 ###
 # Routing for your application.
 ###
@@ -57,7 +58,11 @@ def page_not_found(error):
 @app.route('/profile/')
 def profile():
   """Render Fake Profile Page"""
-  return render_template("profile.html")
+  return render_template("profile.html", date = display_date())
+
+import time
+def display_date():
+  return (time.strftime("%a, %d %b, %Y"))
   
   
 if __name__ == '__main__':
